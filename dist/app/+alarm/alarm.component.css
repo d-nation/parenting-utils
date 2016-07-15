@@ -1,0 +1,34 @@
+div {    
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+div.sleep {
+    background-color: darkred;
+    color: dimgray;
+}
+
+div.warning {
+    background-color: rgb(255, 153, 0);
+    color: dimgray;
+}
+
+div.alarm {
+    background-color: green;
+    color: white;
+}
+
+div h1 {
+    font-size: 15vw;
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+
+div h3 {
+    font-size: 7vw;
+    margin-top: 0;
+}
