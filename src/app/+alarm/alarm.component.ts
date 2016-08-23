@@ -27,7 +27,7 @@ export class AlarmComponent implements OnInit {
 
   ngOnInit() {
     this.currentTime = new Date();
-    this.alarm.init(7, 0);
+    this.alarm.init(6, 40);
     this.alarmTime = this.alarm.alarmTime;
 
     let onTimerTick = this.alarm.timer.subscribe(x => {
