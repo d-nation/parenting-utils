@@ -6,7 +6,6 @@ import { Observable } from 'rxjs/Rx';
 import { TimerService } from './timer.service';
 
 @Component({
-  moduleId: module.id,
   selector: 'app-timer',
   templateUrl: 'timer.component.html',
   styleUrls: ['timer.component.css'],

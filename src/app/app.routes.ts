@@ -5,7 +5,7 @@ import { AlarmComponent } from './+alarm';
 import { TurnComponent } from './+turn';
 import { TimerComponent } from './+timer';
 
-const routes: RouterConfig = [
+export const routes: RouterConfig = [
   {
     path: '',
     redirectTo: '/dashboard',
@@ -28,7 +28,3 @@ const routes: RouterConfig = [
     component: TimerComponent
   }
 ];
-
-export const appRouterProviders = [
-  provideRouter(routes)
-]

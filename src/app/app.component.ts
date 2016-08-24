@@ -7,15 +7,12 @@ import { TurnComponent } from './+turn';
 import { TimerComponent } from './+timer';
 
 @Component({
-  moduleId: module.id,
   selector: 'parenting-utils-app',
-  templateUrl: 'parenting-utils.component.html',
-  styleUrls: ['parenting-utils.component.css'],
+  templateUrl: 'app.component.html',
+  styleUrls: ['app.component.css'],
   encapsulation: ViewEncapsulation.None,
   directives: [ROUTER_DIRECTIVES]
 })
-export class ParentingUtilsAppComponent {
-  title = 'parenting-utils works!';
-
-  constructor(private router:Router) {}
+export class AppComponent {
+  
 }

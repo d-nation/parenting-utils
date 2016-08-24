@@ -6,7 +6,6 @@ import { Observable } from 'rxjs/Rx';
 import { AlarmService } from './alarm.service';
 
 @Component({
-  moduleId: module.id,
   selector: 'app-alarm',
   templateUrl: 'alarm.component.html',
   styleUrls: ['alarm.component.css'],
